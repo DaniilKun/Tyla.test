@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fonts.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+        <div class="shadow" id="shadow1" onclick="toggleBlock()"></div>
+      <h2 class="title">Коснитесь названия предмета, чтобы узнать больше</h2>
+      <button class="btn btn1" onclick="toggleBlock()"></button>
+      <div class="block block1" id="block1">
+        <img src="./img/exit.png" alt="">
+        <h2 class="info1">
+            «В рассуждении сей книги особливаго замечания достойно то, что произошла она на свет совсем нечаянным и ненарочным почти образом: не делоно было мною к тому никаких предварительных приуготовлений и планов; не сочиняемо никаких эскизов; не помышляемо собственно нимало о том, какою ей и сколь великою быть. Но мне так в один день и ненарочно вздумалось паписать что-нибуть о счастии, – я сел и намахал первое и начальное разсуждение». <br><br><span>Болотов А.Т. Жизнь и приключения…</span>
+        </h2>
+      </div>
+      <div class="book1" onclick="toggleBlock()"></div>
+
+      <div class="shadow" id="shadow2" onclick="toggleBlock2()"></div>
+      <button class="btn btn2" onclick="toggleBlock2()"></button>
+      <div class="block block2" id="block2">
+        <img src="./img/exit.png" alt="">
+        <h2 class="info2">
+            В «Книжке метеорологических замечаний» отмечал погоду вчерашнего дня и наступающего утра, т. е. сколько градусов по термометру, какое стояние или изменение борометра. Какой ветер и какое небо при восходе солнца. Весь этот труд, кажется за 52 года постоянных отметок, после кончины А.Т. отправлен отцем моим, Павлом Андреевичем в С-Петербург- в Академию Наук, которая с признательностью приняла этот подарок. Ибо подобных наблюдений и за столь продолжительный период времени в средней России никто не делал». <br><br> <span>Из воспоминаний внука Михаила Павловича Болотова <br>Журнал “Русская старина” 1873 г.</span>
+        </h2>
+      </div>
+      <div class="book2" onclick="toggleBlock2()"></div>
+
+      <div class="shadow" id="shadow3" onclick="toggleBlock3()"></div>
+      <button class="btn btn3" onclick="toggleBlock3()"></button>
+      <div class="block block3" id="block3">
+        <img src="./img/exit.png" alt="">
+        <h2 class="info3">
+          «Не успел я сей труд начать, как по примеру нечаянных предприятий,
+          начал он удаваться гораздо лучше, нежели я думал, и побудил меня
+          приложить к сочинению сей книжки прилежнейшее старание и сделать из
+          ней что-нибудь нужное и совершенное. Сию-то книжку, начатую около
+          15-го декабря 1772-го года, которую назвал я после «Кунсткаморою
+          душевною», продолжал я сочинять по утрам до света, как в праздное и
+          тихое время и при начале сего года, и писал уже о устроении животных».
+          <br /><br /><span>Болотов А.Т. Жизнь и приключения…</span>
+        </h2>
+      </div>
+      <div class="book3" onclick="toggleBlock3()"></div>
+    </section>
+
+    <script>
+      document.addEventListener('contextmenu', function (e) {
+      e.preventDefault(); // Отменить контекстное меню
+    });
+    </script>
+    <script src="./js/exit.js"></script>
+    <script src="./js/popUp.js"></script>
+  </body>
+</html>

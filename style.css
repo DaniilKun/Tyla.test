@@ -1,0 +1,157 @@
+section {
+  width: 1920px;
+  height: 1080px;
+  background: url(./img/background.jpg);
+}
+.shadow {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.4);
+  width: 1920px;
+  height: 1080px;
+}
+.title {
+  position: absolute;
+  top: 131px;
+  left: 656px;
+  color: #f9ecdd;
+  font-family: 'Alice';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn {
+  background: none;
+  position: absolute;
+  border-radius: 9px;
+  border: 2px solid #000;
+}
+.btn1 {
+  width: 590px;
+  height: 170px;
+  top: 232px;
+  left: 722px;
+  background: url(./img/img1.png);
+}
+.btn2 {
+  width: 476px;
+  height: 79px;
+  top: 644px;
+  left: 91px;
+  background: url(./img/img2.png);
+}
+.btn3 {
+  width: 411px;
+  height: 106px;
+  top: 894px;
+  left: 175px;
+  background: url(./img/img3.png);
+}
+.block {
+  border-radius: 11px;
+  border: 2px solid #413d35;
+  background: #ddd5c1;
+  box-shadow: 0px 0px 20px 0px rgba(2, 2, 2, 0.8) inset;
+  color: #000;
+  font-family: 'Alice';
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+    transition: all .1s ease;
+    animation-name: anim-modal;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+@keyframes anim-modal {
+    0%{
+        opacity: 0;
+        background-color: #D9D9D9;
+    }
+    50%{
+       
+    }
+  
+}
+
+.block img {
+  width: 30px;
+  height: 30px;
+  top: 18px;
+  right: 18px;
+  position: absolute;
+  background: none;
+}
+.block1 {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  top: 414px;
+  left: 720px;
+  width: 590px;
+  height: 410px;
+}
+.block2 {
+  z-index: 10;
+
+  display: none;
+  position: absolute;
+  top: 231px;
+  left: 590px;
+  width: 755px;
+  height: 415px;
+}
+.block3 {
+  z-index: 10;
+
+  display: none;
+  position: absolute;
+  top: 459px;
+  left: 1304px;
+  width: 565px;
+  height: 472px;
+}
+.info1 {
+  margin: 45px 48px 37px 34px;
+  width: 493px;
+  height: 373px;
+}
+.info2 {
+  margin: 45px 48px 37px 34px;
+  width: 678px;
+  height: 341px;
+}
+.info3 {
+  margin: 45px 48px 37px 34px;
+  width: 483px;
+}
+span {
+  float: right;
+}
+.book1 {
+  position: absolute;
+  top: 224px;
+  left: 1329px;
+  opacity: 0.5; /* Прозрачность 0.5 */
+  width: 552px;
+  height: 466px;
+}
+.book2 {
+  position: absolute;
+  top: 230px;
+  left: 91px;
+  opacity: 0.5; /* Прозрачность 0.5 */
+  width: 489px;
+  height: 385px;
+}
+.book3 {
+  position: absolute;
+  top: 461px;
+  left: 599px;
+  opacity: 0.5; /* Прозрачность 0.5 */
+  width: 691px;
+  height: 543px;
+}
